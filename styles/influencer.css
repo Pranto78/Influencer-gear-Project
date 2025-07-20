@@ -102,6 +102,23 @@
     height: 414px;
    
 }
+/* brand part */
+
+.brand{
+    width: 100%;
+    
+    max-width: 1110px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid #C0CCDA;
+    border-radius: 5px;
+    padding: 36px 60px 36px 62px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    
+}
 
 
 
@@ -120,19 +137,21 @@
    .banner-container{
     flex-direction: column;
     text-align: center;
-   }
+    }
 
    .banner{
     margin-left: 30px;
-   }
+    }
 
    .banner-title {
     font-size: 1.8rem;
-  }
+    }
 
    .btn-primary {
     font-size: 1rem;
-  }
+    }
+
+
 
 
   
