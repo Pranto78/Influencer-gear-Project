@@ -109,6 +109,7 @@
     .nav-container,.nav-items {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+       
         
     }
 
@@ -117,9 +118,18 @@
     text-align: center;
    }
 
-   header{
-    width: 600px;
-   }
+   .banner-title {
+    font-size: 1.8rem;
+}
+
+.btn-primary {
+    font-size: 1rem;
+}
+
+
+   header {
+    width: 100%;
+}
 
   
 }
