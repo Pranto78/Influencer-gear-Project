@@ -104,6 +104,13 @@
 }
 /* brand part */
 
+
+
+
+
+
+
+
 .brand{
     width: 100%;
     
@@ -118,6 +125,109 @@
     padding: 36px 60px 36px 62px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     
+}
+
+/* product */
+
+.collections-img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 256px;
+}
+
+.collections-title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.collection-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+}
+
+.collection-container{
+    width: 100%;
+    max-width: 1047px;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+.product-cards{
+    width: 100%;
+    max-width: 329px;
+    height: 476px;
+    border: 1px solid rgb(207, 206, 206);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+}
+
+.product-cards:hover{
+   
+    background-color: rgb(146, 163, 168);
+    color:white;
+
+}
+
+.product-description:hover{
+
+    color: white;
+
+}
+
+
+
+
+
+
+.collections-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+
+.product-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    
+    height: 40px;
+    margin: 0 0 0 0;
+    margin-top: 16px;
+}
+
+.product-price{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #3A3A3A;
+    width: 82px;
+    height: 36px;
+    margin: 0;
+}
+
+.product-rattings{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 122px;
+    height: 34px;
+    margin: 0 0 0 0;
+}
+
+.product-description{
+    width: 196px;
+    height: 61px;
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: grey;
 }
 
 
