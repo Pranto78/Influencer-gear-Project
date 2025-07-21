@@ -127,7 +127,7 @@
     
 }
 
-/* product */
+/* Collection-product */
 
 .collections-img{
     width: 100%;
@@ -159,7 +159,7 @@
 
 .product-cards{
     width: 100%;
-    max-width: 329px;
+    max-width: 300px;
     height: 476px;
     border: 1px solid rgb(207, 206, 206);
     padding: 10px;
@@ -261,7 +261,26 @@
     font-size: 1rem;
     }
 
+    /* product part */
 
+    .brand{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        
+    }
+
+    .collection-products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        
+        
+    }
+
+    .collection-container{
+        justify-items: center;
+    }
 
 
   
